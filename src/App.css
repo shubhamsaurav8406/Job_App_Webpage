@@ -1,0 +1,168 @@
+.container {
+  height: 190vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: RGB(136, 176, 75);
+}
+
+.form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3 {
+  color: RGB(136, 176, 75);
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: RGB(136, 176, 75);
+  letter-spacing: 0.04em;
+  /* border: 4px RGB(136, 176, 75) solid; */
+  padding: 8px;
+  text-decoration: underline;
+  /* background-color: RGB(136, 176, 75); */
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+form input[type="submit"] {
+  background-color: RGB(136, 176, 75);
+  color: #fff;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
+form input[type="submit"]:hover {
+  background-color: red;
+  color: #fff;
+  transition: ease-in-out;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+.firstname {
+  margin-right: 1%;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.lastname {
+  margin-left: 1%;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.firstname,
+.lastname,
+.email,
+.education,
+.address,
+.resume,
+.city,
+.line1,
+.line2,
+.country,
+.state,
+.zipcode,
+#phone {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.companyName,
+.jobTitle,
+.currentCompanyExperience,
+.totalExperience {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.firstname,
+.lastname {
+  width: 49%;
+}
+
+.email,
+.education,
+.address,
+#phone {
+  width: 100%;
+}
+select {
+  font-family: cursive;
+}
+
+.city {
+  float: left;
+  width: 40% !important;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.state {
+  float: left;
+  width: 20% !important;
+
+  box-sizing: border-box;
+}
+
+.zipcode {
+  float: right;
+  width: 40% !important;
+  padding-left: 20px;
+  padding-right: 0%;
+  box-sizing: border-box;
+}
+
+.submit {
+  text-align: center;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: absolute;
+  text-transform: uppercase;
+}
